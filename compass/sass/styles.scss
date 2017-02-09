@@ -1,4 +1,44 @@
-h1{
-	color: red;
+body{
+    padding:0;
+    text-align: center;
 }
 
+.title-header{
+	margin-top: 30px;
+	font-size: 40px;
+}
+
+.vote-button{
+    background-color: rgba(0,30,0,0.6);
+    height:35px;
+    line-height: 35px;
+    color: white;
+    font-size: 17px;
+    width: 49vw;
+    display: inline-block;
+
+}
+.vote-button:hover{
+
+}
+.standings-button{
+    color: white;
+    height:35px;
+    line-height: 35px;    
+    background-color: rgba(0,0,30,0.6);
+    font-size: 17px;
+    width: 49vw;
+    display: inline-block;
+}
+
+.image-vote{
+	margin-top: 30px;
+	height: 60vh;
+	img{
+		height: 100%;
+	}
+}
+
+.yes-no-wrapper{
+	margin-top: 50px;
+}
